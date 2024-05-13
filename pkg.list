@@ -48,7 +48,6 @@ xcb-util-errors
 xcb-util-keysyms
 xcb-util-wm
 xcb-util-xrm
-xcursor-simpleandsoft
 xdotool
 xinit-xsession
 xmenu
@@ -60,4 +59,3 @@ xorg-xinit
 xorg-xinput
 xorg-xsetroot
 xterm
-yay
