@@ -45,7 +45,7 @@
 "/etc/brightness/increase.sh"
   c:233
 
-"/home/eilon/xmenu.sh"
+"/home/$USER/xmenu.sh"
  b:3
 
 #"xterm -geom 50x20+20+20"
