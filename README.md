@@ -56,11 +56,11 @@ cd SimpleOS
 git checkout release
 git reset  # Optionally reset the repository if required
 ```
-The development branch is typically the most up to date branch but will likely contain many bugs.
-The exerpimental branch contains features that made it out of the development stage but are not yet stable enough for the release branch
-The release branch is only updated after the stability of all features has been verified
+The **development** branch is typically the most up to date branch but will likely contain many bugs.  
+The **exerpimental** branch contains features that made it out of the development stage but are not yet stable enough for the release branch.  
+The **release** branch is only updated after the stability of all features has been verified.  
 
-At the time of writing, I recommend checking out the development branch as the other branches will not recieve any attention until I sort out stability issues.
+At the time of writing, I recommend checking out the **development** branch as the other branches will not recieve any attention until I sort out stability issues.  
 
 ### Running the Installer
 From within the SimpleOS directory, initiate the installation process:
