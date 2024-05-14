@@ -56,6 +56,11 @@ cd SimpleOS
 git checkout release
 git reset  # Optionally reset the repository if required
 ```
+The **development** branch is typically the most up to date branch but will likely contain many bugs.  
+The **exerpimental** branch contains features that made it out of the development stage but are not yet stable enough for the release branch.  
+The **release** branch is only updated after the stability of all features has been verified.  
+
+At the time of writing, I recommend checking out the **development** branch as the other branches will not recieve any attention until I sort out stability issues.  
 
 ### Running the Installer
 From within the SimpleOS directory, initiate the installation process:
@@ -74,3 +79,6 @@ passwd yourUser  # Don't forget to set a password for the new user
 
 ## Getting Started
 After installing SimpleOS, you can begin configuring and customizing your environment to better suit your needs. Consult the SimpleOS documentation for guidance on post-installation steps and tips for maximizing your productivity.
+
+## Interested in contributing?
+This is a solo project I started in highschool, and there are many hurdles to overcome before this desktop envirornment is "consumer-ready." There are numerous organizational issues (documentation, commenting code, etc.) that I need to address before this project will be easily accessible by outside contributers. If despite this you are still interested in getting involved, please contact me via email.
