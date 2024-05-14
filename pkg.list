@@ -4,8 +4,8 @@ brightnessctl
 dmenu
 dunst
 feh
+firefox
 font-manager
-google-chrome
 gtksourceview3
 hwinfo
 konsole
@@ -32,14 +32,13 @@ python
 python-gobject
 qtcreator
 stalonetray
-standardnotes-bin
 tk
 tmux
 tree
 ttf-font-awesome
 ttf-ms-fonts
 unzip
-vim
+vi
 volumeicon
 xbindkeys
 xcb-util-cursor
@@ -57,4 +56,3 @@ xorg-xev
 xorg-xinit
 xorg-xinput
 xorg-xsetroot
-xterm
