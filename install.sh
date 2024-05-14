@@ -7,5 +7,5 @@ done < pkg.list
 chmod -R 555 root/etc
 chmod -R 555 usr/bin
 
-sudo cp -r root/etc/* /etc
-sudo cp -r usr/bin/* /usr/bin
+sudo rsync -av root/etc /etc
+sudo rsync -av usr/bin /usr/bin
