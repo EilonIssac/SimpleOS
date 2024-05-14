@@ -1,18 +1,17 @@
 #!/bin/bash
 
-2bwm &	# Start Window Manager
-picom &	# Start Compositer
-feh --bg-scale $(head -n1 /etc/feh-bg/current)	# Load Background Image
-xsetroot -cursor_name left_ptr	# Set Cursor
-/etc/xmenu/check_win.sh &	# Start Right Click Monitoring Daemon
-echo "1" > /etc/tray/tmp/state 	# Set Tray State To Open
+2bwm &  # Start Window Manager
+picom & # Start Compositer
+feh --bg-scale $(head -n1 /etc/feh-bg/current)  # Load Background Image
+xsetroot -cursor_name left_ptr  # Set Cursor
+/etc/xmenu/check_win.sh &       # Start Right Click Monitoring Daemon
+echo "1" > /etc/tray/tmp/state  # Set Tray State To Open
 sleep 2.5
-/etc/lemonbar/start_lemonbar.sh | lemonbar -o -0 -f "Verdana" -o -2 -f "Font Awesome 6 Free Solid" -B "#d3d3d3" -F "#000000" -p | bash &	# Start Menu Bar
-dunst &	# Start Notification Daemon
-polkit-dumb-agent &	# Start Polkit Authentication Agent
-stalonetray --icon-size=24 --kludges=force_icons_size -geometry 7x3+1849-1104 -p &	# Start Tray Daemon
+/etc/lemonbar/start_lemonbar.sh | lemonbar -o -0 -f "Verdana" -o -2 -f "Font Awesome 6 Free Solid" -B "#d3d3d3" -F "#000000" -p | bash &        # Start Menu Bar
+dunst & # Start Notification Daemon
+polkit-dumb-agent &     # Start Polkit Authentication Agent
+stalonetray --icon-size=24 --kludges=force_icons_size -geometry 7x3+1849-1104 -p &      # Start Tray Daemon
 sleep 0.1
 /etc/tray/close_tray.sh # Close Tray
 nm-applet & # Start Network Manager Applet
 exec volumeicon # Start Volume Icon Applet
-
