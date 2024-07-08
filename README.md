@@ -4,8 +4,8 @@ A minimalist desktop environment for Arch Linux designed to streamline your comp
 
 ## Important Notes Before Installation
 
-### ArchISO Compatibility
-SimpleOS is not officially compatible with ArchISO. It is **strongly recommended** that you follow the standard Arch installation process as detailed on the [Arch Wiki](https://wiki.archlinux.org/index.php/installation_guide).
+### ArchInstall Compatibility
+SimpleOS is not officially compatible with ArchInstall. It is **strongly recommended** that you follow the standard Arch installation process as detailed on the [Arch Wiki](https://wiki.archlinux.org/index.php/installation_guide).
 
 ### Internet Requirement
 SimpleOS does not come pre-packaged with essential software packages. The installer relies on an active internet connection as it fetches packages during the installation process. Ensure you are connected to the internet before proceeding with the installation.
